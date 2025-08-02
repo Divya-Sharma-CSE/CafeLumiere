@@ -1,4 +1,4 @@
-# Caf-Lumi-re
+# Cafe-Lumiere
 Café Lumière – A cozy, elegant café website landing page designed for a fictional cafe, built using HTML CSS. Created independently during my first semester as a Computer Science Engineering student,
 this repository also documents my early exploration journey into web development.
 
