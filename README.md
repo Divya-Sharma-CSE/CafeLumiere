@@ -16,7 +16,7 @@ this repository also documents my early exploration journey into web development
 💻 To Run This Project
 link to Café Lumière- Brewed in warmth
 
-(LINK)
+[(LINK)](https://divya-sharma-cse.github.io/Caf-Lumi-re/)
 
 💭 Future Improvements
 - more secctions (products showcase, contact, about us)
