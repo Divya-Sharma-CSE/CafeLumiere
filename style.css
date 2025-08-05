@@ -129,79 +129,142 @@
   }
 
   .bspage h3 {
-    color:#e4c282ee;
-    font-size:1.5rem;
-    /*font-family:*/
-    margin-bottom: 8rem;
+    color:#dbb265ee;
+    font-size:1.7rem;
+    font-family:"Handlee", cursive;
+    margin: 1rem;
   }
 
 
-  .best-sellers-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+.bsgrid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2.1rem;
+  max-width: 1200px;
+  margin: 6rem auto;
+  padding: 0 2rem;
+ }
 
-/* bs cards */
-  .itemcard {
-    position: relative;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.08);
-    overflow:hidden;
-    background-color: #ffffff;
-    padding: bottom 1.5em;
-    transition: transform 0.3s ease,box-shadow 0.3 ease;
-  }
+.itemcard {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
 
-  .itemcard:hover{
-    transform:scale(1.03 rem);
-    box-shadow: rgba(0,0,0,0.15);
-  }
+.itemcard:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
 
-  .itemcard .img{
-    width:100%;
-    height:150px;
-    object-fit:cover;
-  }
+.itemcard img {
+  border-radius: 10px;
+  width: 100%;
+  height: 250px;
+  display: block; 
+  object-fit: cover;
+  padding:5px 8px;
+}
 
-  .itemcard p{
-    font-family: "#";
-    font-size:0.9rem;
-    margin-top:0.5rem;
-    color: #7a6c5d
-  }
+.itemcard h3{
+  color:#e4c282ee;
+  font-size:1.7rem;
+  font-family:"Handlee", cursive;
+  margin: 2rem 1rem 1rem 1rem;
+}
 
-  .itemcard h3{
-    font-size: 1.3rem;
-    font-family:"#"
-  }
+.itemcard .cake{
+  font-size:1.5rem;
+  margin: 2rem 0.8rem 0.8rem 1.5rem;
+}
+
+.itemcard p {
+  font-size: 0.95rem;
+  padding: 1rem;
+  font-family: "Open Sans", serif;
+  color:#7a6c5d
+}
+
+/* Category Badges */
+.badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  color: white;
+  border-radius: 999px;
+  font-family: 'Playfair Display', serif;
+}
+
+.badge.tea {
+  background-color: #6e9e70;
+}
+
+.badge.coffee {
+  background-color: #a67b5b;
+}
+
+.badge.dessert {
+  background-color: #c97f7f;
+}
 
 
-/* badges */
 
-  .badge{
-    position:absolute;    /*IMPORTANT*/
-    margin: 10px 15px;
-    text-align:center;
-    padding:5px 10px;
-    border-radius: 999px;
-    font-weight:bold;
-    text-transform:uppercase;
-    color: white;
-  }
-
-  .badge.tea{
-    background-color:rgb(191, 226, 155) 
-  }
-
-  .badge.coffee {
-    background-color: #a67b5b;
-  }
-
-  .badge.dessert{
-    background-color: rgb(243, 173, 148);
-  }
 
   
+
+  /* Footer at bottom 
+  .itemcard .bs-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto; /* push it down 
+    padding-top: 1rem;
+  }
+
+  .left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+
+  .right{
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-end;
+  }
+
+  .add-cart {
+    background-color: #a9746e;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .add-cart:hover {
+    background-color: #bd5871;
+  }
+
+  .fav{
+    display:inline-block;
+    background-color: white;
+    border: 2px solid;
+    border-color: rgb(199, 2, 107);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+  } 
+  */
+
