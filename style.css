@@ -112,11 +112,12 @@
     background-color: #e8d8c3;
     background-size: cover;
     text-align:center;
+    padding-bottom:1rem;
   }  
   .bspage h2{
     font-family: "Xanh Mono", monospace;
-    font-size:3rem;
-    padding-top:5rem;
+    font-size:3.1rem;
+    padding-top:4.5rem;
 
   }
 
@@ -130,7 +131,7 @@
 
   .bspage h3 {
     color:#dbb265ee;
-    font-size:1.7rem;
+    font-size:1.8rem;
     font-family:"Handlee", cursive;
     margin: 1rem;
   }
@@ -139,9 +140,9 @@
 .bsgrid {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  gap: 2.1rem;
-  max-width: 1200px;
-  margin: 6rem auto;
+  gap: 2.2rem;
+  max-width: 1240px;
+  margin: 5rem auto 3rem auto;
   padding: 0 2rem;
  }
 
