@@ -114,11 +114,11 @@
     text-align:center;
     padding-bottom:1rem;
   }  
+
   .bspage h2{
     font-family: "Xanh Mono", monospace;
     font-size:3.1rem;
     padding-top:4.5rem;
-
   }
 
   .bspage h2 .w1{
@@ -144,7 +144,7 @@
   max-width: 1240px;
   margin: 5rem auto 3rem auto;
   padding: 0 2rem;
- }
+}
 
 .itemcard {
   background-color: #ffffff;
@@ -215,7 +215,75 @@
 
 
 
+/* Why Us */ 
+.why {
+  border: 3px dashed red;
+}
 
+.why h2{
+  font-family: "Domine", serif;
+  font-size:3rem;
+  color:#5b4034
+}
+
+.why p{
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+  color:#3a2f2a
+}
+
+.qualities{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
+  gap:1rem;
+}
+
+.qualities h3{
+  font-family:"Playfair Display", sans-serif;
+  color:#4a352e;
+  margin:10px 0 10px 0;
+}
+
+.qualities img{
+  max-height: 40px;
+  max-width:40px;
+}
+
+
+*/
+
+
+
+
+
+
+/*
+.delivery{
+  background-image: url(christina-rumpf-LMzwJDu6hTE-unsplash.jpg); 
+  background-size:cover; 
+  background-position:center; 
+  height:100vh;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index:1;
+}
+
+
+.delivery::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  background-color: rgba(248, 184, 95, 0.3);  
+  z-index: 0;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+}
+*/
   
 
   /* Footer at bottom 
