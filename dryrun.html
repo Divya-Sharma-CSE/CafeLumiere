@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Café Lumière</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <style>
+    /* Global Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Playfair Display', serif;
+      background-image: url("lumiere.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      position: relative;
+      color: #3e2f24;
+    }
+
+    /* tint */
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(255, 244, 229, 0.4); /* beige-orange */
+      mix-blend-mode: multiply;
+      z-index: 0;
+    }
+
+    /* Navigation Bar */
+    .nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(108, 47, 11, 0.95);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 3rem;
+      z-index: 1;
+    }
+
+    .list-left, .list-right {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+    }
+
+    .list-left li a,
+    .list-right li a {
+      text-decoration: none;
+      color: #fefefe;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #fff9f2;
+    }
+
+    .list-left li a:hover:not(.logo),
+    .list-right li a:hover {
+      transform: scale(1.1);
+      color: #ffe3ba;
+    }
+
+    /* Hero Section */
+    .hero {
+      margin-top: 50px;
+      padding: 2rem;
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      z-index: 0;
+      position: relative;
+    }
+
+    .image {
+     float:right;
+     width: 60%;
+     max-width: 500px;
+     height: auto;
+     border-radius: 12px;
+     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation Menu -->
+  <div class="nav">
+    <ul class="list-left">
+      <li><a href="#" class="logo" title="HOME">Café Lumière</a></li>
+      <li><a href="#">OUR STORY</a></li>
+      <li><a href="#">SHOP</a></li>
+    </ul>
+    <ul class="list-right">
+      <li><a href="#" title="Search">🔍︎</a></li>
+      <li><a href="#">⚲ STORE LOCATOR</a></li>
+      <li><a href="#">ACCOUNT</a></li>
+      <li><a href="#">CART</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <img src="two cups2.png" alt="Two coffee glasses with coffee being poured into one" class="image" />
+  </div>
+
+</body>
+</html>
