@@ -4,7 +4,7 @@ this repository also documents my early exploration journey into web development
 
 💡 Features 
 - hero page
-- error 404 (coming soon)
+- error 404
 - mobile-friendly layout (coming soon)
 
 
