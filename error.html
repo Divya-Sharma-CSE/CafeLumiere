@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,4 +75,82 @@
 
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ERROR 404</title>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    
+    <style>
+        body{ 
+            background-color:#fff4e1;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family:'Delius', sans-serif;
+            margin:0;
+        }
+
+        .img-area{
+            position: relative;
+            text-align: center;
+        }
+        
+        /*.img{
+            width: 
+        } */
+
+        .mssg{
+            position:absolute;     /*the positioning of mssg is relative to (here,) mug only-- so while using 
+            translateY the distance (CSS coordinate system way) is measured from the top of the cup */
+            bottom:100%;
+            left:50%;
+            transform: translateX(-50%);
+            font-size: 20px;
+            color:rgba(152, 110, 78, 0.3);
+            opacity:0;
+            animation: steamreveal 4s infinite;
+        }
+
+        @keyframes steamreveal {
+            0% {
+                opacity:0; 
+                transform: translateX(-50) translateY(20px);
+            }
+
+            30% {
+                opacity:1;
+                transform: translateX(-50%) translateY(0);
+            }
+            
+            60% {
+                opacity:0.4;
+                transform: translateX(-50%) translateY(-40px);
+            }
+
+            100% {
+                opacity: 0;
+                transform: translateX(-50%) translateY(-80px);
+            }  
+              
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="img-area">
+        <img src="#" alt="Coffe-Mug" class="img"/>
+        
+    
+         <div class="mssg">
+            Oops! You found the Decaf Zone
+         </div>
+
+</body>
+
+>>>>>>> a89835eee6830351b1d76efa4ac6669e639991c3
 </html>
