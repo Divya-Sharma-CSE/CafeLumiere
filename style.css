@@ -135,7 +135,7 @@
     margin: 1rem;
   }
 
-/* Item Cards */
+ /* Item Cards */
   .bsgrid {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -213,53 +213,59 @@
     }
 
 
- /* Why-Us Section */
-    .why-us {
-      background-color: #d9a066;
+/* Why-Us Section */
+  .why-us {
+    background-color: #d9a066;
+    min-height: 100vh;
+    padding-top: 4.5rem;
+  }
+
+  .why-us h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 3.2rem;
+    color: aliceblue;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .why-us h3 {
+    font-family: "Handlee", cursive;
+    font-size: 1.9rem;
+    color: aliceblue;
+    margin-bottom: 8rem;
+    text-align: center;
+  }
+
+  .why-us .points {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 4rem;
+    max-width: 1300px;
+    margin: 0 auto; 
+    /* padding: 0 1rem; */
+  }
+
+  .why-us .point {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .why-us .point h3 {
+    color: #4e342e;
+    margin-bottom: 1rem;
+  }
+
+  .why-us .point p {
+    color: #FFF8E7;
+    font-size: 1.3rem;
+    font-family: "Quicksand";
+  }
+
+/* Footer */
+  .footer{
+      background-color: #a3966a;
       min-height: 100vh;
-      padding-top: 4.5rem;
-    }
-
-    .why-us h2 {
-      font-family: "Playfair Display", serif;
-      font-size: 3.2rem;
-      color: aliceblue;
-      margin-bottom: 1rem;
-      text-align: center;
-    }
-
-    .why-us h3 {
-      font-family: "Handlee", cursive;
-      font-size: 1.9rem;
-      color: aliceblue;
-      margin-bottom: 8rem;
-      text-align: center;
-    }
-
-    .why-us .points {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 4rem;
-      max-width: 1300px;
-      margin: 0 auto; 
-      /* padding: 0 1rem; */
-    }
-
-    .why-us .point {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-
-    .why-us .point h3 {
-      color: #4e342e;
-      margin-bottom: 1rem;
-    }
-
-    .why-us .point p {
-      color: #FFF8E7;
-      font-size: 1.3rem;
-      font-family: "Quicksand";
     }
