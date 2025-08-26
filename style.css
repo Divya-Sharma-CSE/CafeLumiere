@@ -266,6 +266,104 @@
 
 /* Footer */
   .footer{
-      background-color: #a3966a;
-      min-height: 100vh;
-    }
+    min-height: 45vh;
+    background-color: #3e2c27;
+    font-family: 'Segoe UI', sans-serif;
+    color: #f1e7d7;
+    padding:40px 20px 0 20px;
+  }
+
+  .footer h3{
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #ffe3b3;
+  font-weight: bold;
+  }
+
+  .footer .containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin:auto;
+  }
+
+  .footer .containers2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo{
+    font-size: 1rem;
+    border-right: 2px solid #6b4c43;
+    align-items: center;
+    max-width: 300px;
+  }
+
+  .logo p{
+    padding-left: 10px;
+  }
+
+  .logo-img{
+    max-width: 300px;
+    border-right: 2px solid #6b4c43;
+  }
+
+  .hours,
+  .logo,
+  .contact,
+  .order,
+  .socials{
+    flex: 1 1 150px;
+  }
+
+  .footer ul {
+  list-style: none;
+  padding: 0;
+  }
+
+  .footer ul li{
+    font-size: 0.95rem;
+    text-decoration: none;
+  }
+  
+  .footer ul a,
+  .more a{
+    color:#f1e7d7;
+    font-family: sans-serif;
+    transition: color 0.3s;
+    text-decoration: none;
+  }
+
+  .footer ul a:hover,
+  .more a:hover{
+    color:#f2cf94;
+  }
+
+  .more .item:not(:first-child)::before{
+    content:"|";
+    color: #f1e7d7;
+    margin:0 8px;
+  }
+
+  .more a{
+    font-family: "Inconsolata", monospace;
+    letter-spacing: 3px;
+    font-size: 1.2rem;
+  }
+  
+
+
+  .bottom{
+    text-align: center;
+    border-top: 1px solid #6b4c43;
+    padding:15px;
+    margin-top: 30px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    color: #d6bda7;
+  }
+
+
+
