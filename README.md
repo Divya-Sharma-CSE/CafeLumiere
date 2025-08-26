@@ -4,6 +4,9 @@ this repository also documents my early exploration journey into web development
 
 💡 Features 
 - hero page
+- bestsellers section
+- Why Choose Us section
+- Footer
 - error 404
 - mobile-friendly layout (coming soon)
 
@@ -11,7 +14,10 @@ this repository also documents my early exploration journey into web development
 📚 What I Learned
 - styling with css including positioning and font loading
 - Creating background overlays using pseudo-elements and mix-blend-mode
-- z-index and woking on layers
+- z-index and working on layers
+- good practice of Flex and Grid
+- Divider between texts
+- Transitions
 
 💻 To Run This Project
 link to Café Lumière- Brewed in warmth
@@ -19,7 +25,7 @@ link to Café Lumière- Brewed in warmth
 [(LINK)](https://divya-sharma-cse.github.io/CafeLumiere/)
 
 💭 Future Improvements
-- more secctions (products showcase, contact, about us)
+- more secctions (door step delivery)
 - mobile-friendliness
 - transitions
 - sign in page
